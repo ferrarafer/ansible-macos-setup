@@ -25,14 +25,11 @@ screensaver_ask_for_password_in_seconds: 5
 shell_path: /usr/local/bin/zsh
 
 homebrew_taps:
-  - adoptopenjdk/openjdk,
-  - filledstacks/tap,
-  - homebrew/bundle,
-  - homebrew/cask
-  - homebrew/cask-drivers,
-  - homebrew/cask-fonts,
-  - homebrew/core
-  - homebrew/services,
+  - adoptopenjdk/openjdk
+  - filledstacks/tap
+  - homebrew/bundle
+  - homebrew/cask-fonts
+  - homebrew/services
   - qmk/qmk
 
 homebrew_apps:
