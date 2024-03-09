@@ -1,0 +1,4 @@
+---
+
+- name: Cleanup
+  command: brew cleanup

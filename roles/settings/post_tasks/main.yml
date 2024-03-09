@@ -1,0 +1,5 @@
+---
+
+- name: Delete all symlinks
+  ansible.builtin.shell:
+    cmd: find . -name ".DS_Store" -delete
