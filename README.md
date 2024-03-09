@@ -33,7 +33,7 @@ cp default.config.yml config.yml
 #   - install Ansible
 #   - install Ansible requirements
 #   - apply `main.yml` ansible playbook
-sh ./bin/bootstrap
+sh bin/bootstrap
 ```
 
 For future updates, `bin/apply` shell script can be used to run just the Ansible playbook without the setup commands.
