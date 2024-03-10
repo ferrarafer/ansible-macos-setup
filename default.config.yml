@@ -85,7 +85,7 @@ homebrew_packages:
   - asdf
   - bash
   - bat
-  - eza
+  - eza # A modern, maintained replacement for ls
   - fd
   - ffmpeg
   - flutter
@@ -105,7 +105,7 @@ homebrew_packages:
   - lazygit
   - lcov
   - lf
-  - lsd
+  - lsd # The next gen ls command
   - lua
   - luajit
   - luarocks
@@ -124,7 +124,6 @@ homebrew_packages:
   - tmux
   - tokei
   - translate-shell
-  - tree # Display directories as trees (with optional color/HTML output)
   - w3m
   - wget
   - yarn
