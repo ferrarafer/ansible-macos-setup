@@ -85,8 +85,7 @@ homebrew_packages:
   - asdf
   - bash
   - bat
-  - delta
-  - exa
+  - eza
   - fd
   - ffmpeg
   - flutter
@@ -94,6 +93,7 @@ homebrew_packages:
   - gawk
   - gcc
   - git
+  - git-delta
   - glow # Render markdown on the CLI
   - gnupg
   - gnu-sed
@@ -113,7 +113,7 @@ homebrew_packages:
   - mas # Mac App Store command-line interface
   - ncdu
   - neovim
-  - nmap
+  # - nmap
   - npm
   - prettier
   - ripgrep
