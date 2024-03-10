@@ -1,6 +1,7 @@
 #!/bin/sh
 xcode-select --install
 sudo xcodebuild -license
+softwareupdate --install-rosetta
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> $HOME/.zprofile
 brew install ansible
